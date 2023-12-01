@@ -1,0 +1,12 @@
+version: '3'
+tasks:
+  build:
+    cmds:
+      - dune build
+  run:
+    cmds:
+      - dune exec aoc2023
+  build-and-run:
+    cmds:
+      - task build
+      - task run
